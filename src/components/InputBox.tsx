@@ -58,6 +58,7 @@ export default function InputBox(props: {
                             maxRows={12}
                             autoFocus
                             id="message-input"
+                            spellCheck={true}
                             onKeyDown={(event) => {
                                 if (
                                     event.keyCode === 13 &&
