@@ -205,6 +205,7 @@ function _MessageBox(props: Props) {
                                     width: '100%',
                                 }}
                                 multiline
+                                spellCheck={true}
                                 placeholder="prompt"
                                 value={msg.content}
                                 onChange={(e) => {
